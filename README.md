@@ -2,15 +2,22 @@
 
 An app that is very cat. meow
 
-## Getting Started
+## Building
 
-This project is a starting point for a Flutter application.
+You will need `flutter` and `dart` for this one.
 
-A few resources to get you started if this is your first Flutter project:
+Clone the repo and build the program
+```bash
+    git clone https://github.com/namnam1105/cats_everyday.git
+    cd cats_everyday
+    flutter build apk
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Output is in `build/app/outputs/flutter-apk/app-release.apk`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installing
+
+Just download the release if you don't want to compile this.
+
+While installing make sure that the internet access permission is ON or else the program will NOT WORK
+due to heavy API dependency.

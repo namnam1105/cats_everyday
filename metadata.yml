@@ -1,0 +1,29 @@
+Categories:
+  - Multimedia
+License: AGPL-3.0-or-later
+WebSite: https://github.com/namnam1105/cats_everyday
+SourceCode: https://github.com/namnam1105/cats_everyday
+IssueTracker: https://github.com/namnam1105/cats_everyday/issues
+Changelog: https://github.com/namnam1105/cats_everyday/releases
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 1.0.0+1
+RepoType: git
+Repo: https://github.com/namnam1105/cats_everyday.git
+
+Builds:
+  - versionName: 1.0.0+1
+    versionCode: 1
+    commit: 75c90fb
+    subdir: .
+    gradle:
+      - yes
+    prebuild: flutter pub get
+    build: flutter build apk
+    output: build/app/outputs/flutter-apk/app-release.apk
+
+
+AutoUpdate:
+  Mode: Version
+  UpdateCheckMode: Tags
+  VersionRegex: ^v?(\d+\.\d+\.\d+)$
